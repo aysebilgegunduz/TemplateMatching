@@ -5,7 +5,7 @@ FLANNMatcher.py -
 * takes 2 parameters firs img: image that i want to figure it out whether if fits with my template or not
 template: image that defined as template. to understand unknown images are match we use this image as a template image.
 * uses FLANN and sift together to find matching template.
-* if matching point is more than 100 then it is a id, otherwise it is not an id.
+* if matching point is more than 100 then it is a match, otherwise it is not a match.
 
 edgeDetection.py - 
 * uses canny to finds edge of the image 
